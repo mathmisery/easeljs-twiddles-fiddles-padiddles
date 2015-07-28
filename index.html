@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Hello...</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<style type="text/css">
+/*#mainContent {*/
+/*	font-family: Arial, Helvetica, sans-serif;*/
+/*	font-size: xx-large;*/
+/*	font-weight: bold;*/
+/*	background-color: #E3F0FB;*/
+/*	border-radius: 4px;*/
+/*	padding: 10px;*/
+/*	text-align: center;*/
+/*}*/
+/*.buttonStyle {*/
+/*	border-radius: 4px;*/
+/*	border: thin solid #F0E020;*/
+/*	padding: 5px;*/
+/*	background-color: #F8F094;*/
+/*	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/
+/*	font-weight: bold;*/
+/*	color: #663300;*/
+/*	width: 75px;*/
+/*}*/
+
+/*.buttonStyle:hover {*/
+/*	border: thin solid #FFCC00;*/
+/*	background-color: #FCF9D6;*/
+/*	color: #996633;*/
+/*	cursor: pointer;*/
+/*}*/
+/*.buttonStyle:active {*/
+/*	border: thin solid #99CC00;*/
+/*	background-color: #F5FFD2;*/
+/*	color: #669900;*/
+/*	cursor: pointer;*/
+/*}*/
+
+</style>
+</head>
+
+<body>
+<canvas id="testCanvas" width="960" height="1200"></canvas>
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+<script src="https://code.createjs.com/easeljs-0.8.1.min.js"></script>
+<script src="/shapes.js"></script>
+<!-- <script>
+	var stage = new createjs.Stage("testCanvas");
+
+	// grab canvas width and height for later calculations:
+	var w = stage.canvas.width;
+	var h = stage.canvas.height;
+var data = {
+    images: ["IMG_0695.jpg"],
+    frames: {width:960, height:1200},
+    animations: {
+        stand:0,
+        run:[1,5],
+        jump:[6,12,"run"]
+    },
+    framerate: 32
+};
+var spriteSheet = new createjs.SpriteSheet(data);
+var animation = new createjs.Sprite(spriteSheet, "run");
+stage.addChild(animation);
+createjs.Ticker.timingMode = createjs.Ticker.RAF;
+createjs.Ticker.addEventListener("tick", tick);
+
+function tick(event){
+	stage.update();
+}	
+</script> -->
+</html>
